@@ -1,0 +1,10 @@
+#Setup Environment
+pip install pynput
+
+#Write the Script
+nano keylogger.py
+
+#Run the Script 
+python3 keylogger.py
+
+The script will start logging keystrokes to "key_log.txt". It will stop logging when the "Esc" key is pressed.
